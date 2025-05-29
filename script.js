@@ -8,7 +8,7 @@
     sides: ["epic!", "awesome!", "cool!"], // The array of words that get printed to the html (^o^)
     roll: function () {
       var randomIndex = Math.floor(Math.random() * this.sides.length); // Gets a random index (O_o)
-      return this.sides[randomIndex]; // Returns the words at that index !
+      return this.sides[randomIndex]; // Returns the words as a random index !
     }
   };
   
